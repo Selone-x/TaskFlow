@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Logs
+*.log
+*.out
+*.err
+
+# Virtual environments
+venv/
+env/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets and configurations
+*.env
+
+# Byte-compiled files
+*.pyc
+
+# Database files
+*.sqlite3
+*.db
+
+# Alembic migrations
+alembic/versions/*.pyc
+
+# Docker
+.dockerignore
+docker-compose.override.yml
